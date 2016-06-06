@@ -3,7 +3,6 @@ import os
 import cherrypy
 from jinja2 import Environment, FileSystemLoader
 
-abc;;;
 
 ENV = Environment(loader=FileSystemLoader('templates'))
 
