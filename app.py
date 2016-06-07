@@ -8,10 +8,10 @@ ENV = Environment(loader=FileSystemLoader('templates'))
 
 
 def get_params():
-    params = {'key': os.environ.get('key', ''),
-              'user': os.environ.get('user', ''),
-              'password': os.environ.get('password', '')}
-    return params
+    params1 = {'key': os.environ.get('key', ''),
+               'user': os.environ.get('user', ''),
+               'password': os.environ.get('password', '')}
+    return params1
 
 
 class Root(object):
